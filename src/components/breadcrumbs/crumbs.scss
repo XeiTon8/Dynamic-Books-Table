@@ -1,0 +1,13 @@
+.crumbs {
+    margin-bottom: 1%;
+}
+
+.crumb {
+    color: #fff;
+    text-decoration: none;
+
+    &:not(:last-child)::after {
+        content: '>';
+        margin: 0px 10px;
+    }
+}
